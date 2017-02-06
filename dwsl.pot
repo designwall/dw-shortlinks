@@ -1,0 +1,141 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DW Shortlinks\n"
+"POT-Creation-Date: 2017-02-06 08:55+0700\n"
+"PO-Revision-Date: 2017-02-06 08:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: dw-shortlinks.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: dw-shortlinks.php:42 dw-shortlinks.php:43 dw-shortlinks.php:55
+msgid "Type"
+msgstr ""
+
+#: dw-shortlinks.php:44
+msgid "Search type"
+msgstr ""
+
+#: dw-shortlinks.php:45
+msgid "Popular type"
+msgstr ""
+
+#: dw-shortlinks.php:46
+msgid "All type"
+msgstr ""
+
+#: dw-shortlinks.php:47
+msgid "Edit type"
+msgstr ""
+
+#: dw-shortlinks.php:48
+msgid "Update type"
+msgstr ""
+
+#: dw-shortlinks.php:49
+msgid "Add New type"
+msgstr ""
+
+#: dw-shortlinks.php:50
+msgid "New type Name"
+msgstr ""
+
+#: dw-shortlinks.php:51
+msgid "Separate type with commas"
+msgstr ""
+
+#: dw-shortlinks.php:52
+msgid "Add or remove type"
+msgstr ""
+
+#: dw-shortlinks.php:53
+msgid "Choose from the most used type"
+msgstr ""
+
+#: dw-shortlinks.php:54
+msgid "No type found"
+msgstr ""
+
+#: dw-shortlinks.php:68 dw-shortlinks.php:79
+msgid "Shortlinks"
+msgstr ""
+
+#: dw-shortlinks.php:69 dw-shortlinks.php:102
+msgid "Shortlink"
+msgstr ""
+
+#: dw-shortlinks.php:70 dw-shortlinks.php:71
+msgid "Add New"
+msgstr ""
+
+#: dw-shortlinks.php:72
+msgid "Edit"
+msgstr ""
+
+#: dw-shortlinks.php:73
+msgid "New"
+msgstr ""
+
+#: dw-shortlinks.php:74
+msgid "View"
+msgstr ""
+
+#: dw-shortlinks.php:75
+msgid "Search"
+msgstr ""
+
+#: dw-shortlinks.php:76
+msgid "Shortlinks not found"
+msgstr ""
+
+#: dw-shortlinks.php:77
+msgid "Shortlinks not found in trash"
+msgstr ""
+
+#: dw-shortlinks.php:78
+msgid "Parent:"
+msgstr ""
+
+#: dw-shortlinks.php:116 dw-shortlinks.php:187
+msgid "URL"
+msgstr ""
+
+#: dw-shortlinks.php:127
+msgid "Shortlink base"
+msgstr ""
+
+#: dw-shortlinks.php:188
+msgid "Tracking"
+msgstr ""
+
+#: dw-shortlinks.php:204
+msgid "click"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DW Shortlinks"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Simplify your outbound links."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DesignWall"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.designwall.com"
+msgstr ""
