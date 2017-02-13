@@ -135,6 +135,7 @@ function dwsl_setting_fields() {
 	$shortlinks_base = get_option( 'dwsl_permalink', 'shortlink' );
 	?>
 	<input type="text" name="dwsl_permalink" value="<?php echo esc_attr( $shortlinks_base ) ?>"></input><code>/my-shortlink</code>
+	<?php wp_nonce_field( 'dwsl_permalink', 'dwsl_permalink_nonce' ); ?>
 	<?php
 }
 
@@ -142,8 +143,13 @@ add_action( 'admin_init', 'dwsl_save_permalink' );
 function dwsl_save_permalink() {
 	if ( !isset( $_POST['permalink_structure'] ) && !isset( $_POST['category_base'] ) ) return;
 
+	if ( !current_user_can( 'manage_options' ) ) return;
+
+	if ( !isset( $_POST['dwsl_permalink_nonce'] ) || !wp_verify_nonce( $_POST['dwsl_permalink_nonce'], 'dwsl_permalink' ) ) return;
+
 	if ( isset( $_POST['dwsl_permalink'] ) ) {
 		update_option( 'dwsl_permalink', sanitize_text_field( $_POST['dwsl_permalink'] ) );
+		flush_rewrite_rules();
 	}
 }
 
@@ -154,6 +160,10 @@ function dwsl_save_post( $post_id, $post ) {
 	}
 
 	if ( 'dw-shortlink' !== $post->post_type ) {
+		return;
+	}
+
+	if ( !current_user_can( 'manage_options' ) ) {
 		return;
 	}
 
